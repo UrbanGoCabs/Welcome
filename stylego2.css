@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 35px 60px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.navlinks{
+    padding: 40px 50px;
+    display: flex;
+}
+
+.navlinks li{
+    padding: 0px 60px;
+    display: flex;
+    text-align: justify;
+}
+
+.navlinks li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vnim;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.navlinks li a:hover{
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.1);
+}
+
+section{
+    padding: 0 14%;
+}
+
+.car-img img{
+    margin-top: -18%;
+    width: 700px;
+    padding: 0 35%;
+}
+
+.travel{
+    padding-top: 2%;
+    width: 60%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.travel-content h1{
+    font-size: 80px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.travel-content h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.travel-content p{
+    width: 100%;
+    max-width: 600px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+}
+
+.btn{
+    color: whitesmoke;
+    display: inline-block;
+    padding: 15px 25px;
+    background: black;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    transition: all .6s ease;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.icons{
+    position: absolute;
+    top: 50%;
+    padding: 0 7%;
+    transform: translateY(-50%);
+}
+
+.icons i{
+    display: block;
+    margin: 35px 0;
+    color: black;
+    font-size: 35px;
+    transition: all .6s ease;
+}
+
+.icons i:hover{
+    transform: translateY(-5px);
+    
+}
+
+.tours{
+}
+
+.places{
+    
+
+}
+
+
+@media(max-width: 1770px){
+    header{
+        padding: ;
+    }
+    .logo{
+        padding: 30px 5%;
+    }
+}
