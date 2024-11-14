@@ -195,7 +195,7 @@ section{
     }
     .btn{
         color: whitesmoke;
-        display: block;
+        display: inline-block;
         padding: 15px 25px;
         background: black;
         border: 2px solid transparent;
