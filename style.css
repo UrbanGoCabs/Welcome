@@ -183,4 +183,17 @@ section{
         width: 500px;
         align-items: center;
     }
+    .btn{
+        color: whitesmoke;
+        display: inline-block;
+        padding: 15px 25px;
+        background: black;
+        border: 2px solid transparent;
+        border-radius: 7px;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        transition: all .6s ease;
+        margin-right: 20px;
+        cursor: pointer;
 }
