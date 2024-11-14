@@ -138,11 +138,49 @@ section{
 }
 
 
-@media(max-width: 1770px){
+@media(max-width: 850px){
     header{
-        padding: ;
+        height: 100px;
+        padding: 0;
+        background-color: black;
     }
     .logo{
-        padding: 30px 5%;
+        position: absolute;
+    }
+    .navlinks{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: black;
+        margin-top: -1000px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+    }
+    
+    .menu-btn{
+        margin: 6px;
+        display: block;
+    }
+
+    .navlinks li{
+        margin: 30px auto;
+    }
+    section{
+        margin-top: 10%;
+        justify-content: center;
+    }
+    .travel{
+        margin: 40px 14%;
+        display: inline-block;
+        justify-content: center;
+    }
+    .car-img img{
+        margin-top: 8%;
+        margin-left: -62%;
+        width: 500px;
+        align-items: center;
     }
 }
