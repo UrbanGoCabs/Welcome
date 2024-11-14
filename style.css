@@ -161,6 +161,7 @@ section{
     }
     
     .menu-btn{
+        width: 50px
         margin: 6px;
         display: block;
     }
