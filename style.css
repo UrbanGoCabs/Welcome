@@ -204,7 +204,6 @@ section{
         font-family: 'Times New Roman', Times, serif;
         font-weight: 500;
         transition: all .6s ease;
-        margin-right: 20px;
         cursor: pointer;
     }
 }
